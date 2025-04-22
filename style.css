@@ -333,7 +333,11 @@ main {
 
 .avatar-box {
   background: var(--bg-gradient-onyx);
-  border-radius: 20px;
+  border-radius: 16px;
+}
+.avatar-box:hover {
+  transition: transform 0.2s ease;
+  transform: scale(1.2);
 }
 
 .info-content .name {
@@ -396,6 +400,7 @@ main {
   opacity: 1;
   visibility: visible;
 }
+
 
 .contacts-list {
   display: grid;
