@@ -1,16 +1,15 @@
-import { useState } from 'react'
+import { useState } from 'react';
 import About from './pages/About.jsx';
 import Sidebar from './components/Sidebar.jsx';
-// import './App.css'
+// import './App.css';
 
-function App() {(
-  <>
-  Hello world
-  < About/>
-  <Sidebar/>
-  </>
-       
-  )
+function App() {
+  return (
+    <>
+      <Sidebar />
+      <About />
+    </>
+  );
 }
 
-export default App
+export default App;
