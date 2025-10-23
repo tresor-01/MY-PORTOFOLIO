@@ -7,6 +7,7 @@ import Sidebar from '../components/Sidebar';
 const About = () => {
   return (
     <>
+    <Header />
     <article className="about active" data-page="about">
       <header>
         <h2 className="h2 article-title">About Me</h2>
@@ -153,6 +154,8 @@ const About = () => {
         </section>
       </div>
     </article>
+
+    <Footer />
 </>
   );
 };

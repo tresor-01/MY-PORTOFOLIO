@@ -1,7 +1,11 @@
 import React from 'react';
-
+import Header from '../components/Header';
+import Footer from '../components/Footer';
 const Certificates = () => {
   return (
+    <>
+    <Header />
+    
     <div>
       {/* BLOG SECTION */}
       <article className="blog" data-page="certificates">
@@ -95,6 +99,8 @@ const Certificates = () => {
         </section>
       </article>
     </div>
+    <Footer/>
+    </>
   );
 };
 

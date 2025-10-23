@@ -1,9 +1,11 @@
 import React from "react";
 import { IoEyeOutline, IoChevronDown } from "react-icons/io5";
-
+import Header from "../components/Header";
+import Footer from "../components/Footer";
 const Portfolio = () => {
   return (
     <>
+    <Header />
       {/* PORTFOLIO SECTION */}
       <header>
         <h2 className="h2 article-title">Portfolio</h2>
@@ -178,6 +180,8 @@ const Portfolio = () => {
           </li>
         </ul>
       </section>
+
+      <Footer />
     </>
   );
 };

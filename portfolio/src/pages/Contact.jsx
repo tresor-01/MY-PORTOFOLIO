@@ -1,9 +1,12 @@
 import React from "react";
 import { IoPaperPlane } from "react-icons/io5";
-
+import Header from "../components/Header";
+import Footer from "../components/Footer";
 const Contact = () => {
   return (
     <>
+    <Header />
+
       <section className="contact" data-page="contact">
         <header>
           <h2 className="h2 article-title">Contact</h2>
@@ -63,6 +66,7 @@ const Contact = () => {
           </form>
         </section>
       </section>
+      <Footer />
     </>
   );
 };

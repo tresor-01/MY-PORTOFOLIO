@@ -1,8 +1,10 @@
 import React from "react";
-
+import Header from "../components/Header";
+import Footer from "../components/Footer";
 const Resume = () => {
   return (
     <>
+    <Header />
       <article className="resume" data-page="resume">
         <header>
           <h2 className="h2 article-title">Resume</h2>
@@ -164,6 +166,8 @@ const Resume = () => {
           </ul>
         </section>
       </article>
+
+      <Footer />
     </>
   );
 };
