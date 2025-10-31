@@ -157,3 +157,30 @@ for (let i = 0; i < navigationLinks.length; i++) {
 
   });
 }
+// form things 
+document.getElementById('contactForm').addEventListener('submit', function(e) {
+  e.preventDefault();
+
+  const form = e.target;
+  const formData = new FormData(form);
+  const googleFormURL = "https://docs.google.com/forms/d/e/1FAIpQLSc56-yh_91V8HnXMiGBlBPhhFj1JIlSgvEsLea0vpCWoUkChA/formResponse"
+  // response   
+for (const [key, value] of formData.entries()) {
+  console.log(key, value);
+}
+  fetch(googleFormURL, {
+    method: "POST",
+    body: formData,
+    mode: "no-cors"
+  })
+  .then(() => {
+    form.style.display = "none";
+    document.getElementById('thankYouMessage').style.display = "block";
+  })
+  .catch((error) => {
+    alert("Something went wrong. Please try again.");
+    console.error(error);
+  });
+});
+
+
