@@ -6,7 +6,7 @@ import Resume from './components/Resume';
 import Portfolio from './components/Portfolio';
 import Certificates from './components/Certificates';
 import Contact from './components/Contact';
-import { useActivePage } from './Hooks/useActivePage';
+import { useActivePage } from './hooks/useActivePage';
 
 function App() {
   const { activePage, setActivePage } = useActivePage();
