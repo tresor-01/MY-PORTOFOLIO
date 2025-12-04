@@ -72,7 +72,7 @@ const Portfolio = () => {
           </ul>
         </div>
 
-       // In the return statement, update the grid container:
+       {/* // In the return statement, update the grid container: */}
         <div className="projects-grid grid grid-cols-1 md:grid-cols-2 xl:grid-cols-2 2xl:grid-cols-3 gap-8 justify-items-center">
           {filteredProjects.map((project, index) => (
             <AnimatedCard

@@ -32,7 +32,7 @@ export const services = [
   {
     icon: "./images/cybersecurity.webp",
     title: "Cybersecurity",
-    description: "Through my Journey as Cybersecutiy Enthuast i increase my cyber related skills by learning different tools used in the area including Nmap, Wireshark, Linux , Bash Programming and learn from different platform as TryHackMe and practice Linux skills through OvertheWire games "
+    description: "Through my Journey as Cybersecutiy Enthuast I strive to  increase my cyber related skills by learning different tools used in the area including Nmap, Wireshark, Linux , Bash Programming and learn from different platform as TryHackMe and practice Linux skills through OvertheWire games "
   },
   {
     icon: "./images/Collaboration.webp",
@@ -62,23 +62,23 @@ export const education = [
 
 export const experience = [
   {
-    title: "Software Developer Intern",
-    period: "Sept 2025 — Present",
-    description: "Currently I am software Developer Intern at Rwanda Revenue Authority (RRA), where i participate in developing high-end internal software"
+    title: "Rwanda Revenue Authority As Software Developer Intern ",
+    period: "Sept 2025 —Dec 2025 ",
+    description: "During my academic Internship at Rwanda revenue Authority as a software Developer Intern , I participated in a team of five  in developing high-end internal software to be used in reviewing tax claim and the process digital"
   },
   {
-    title: "Front End Developer ",
-    period: "2024 — Present",
-    description: "Currently I am taking a front end developer internship for WhatIf Rwanda "
+    title: "WhatIf Rwanda As Front End Developer ",
+    period: "Sept 2025 — Dec 2025",
+    description: "During my internship at WhatIf Rwanda, I was a front end developer with in the team of five to develop the website of WhatIf Rwanda Organisation   "
   }
 ];
 
 export const skills = [
-  { name: "Web development", percentage: 75 },
+  { name: "Web development", percentage: 70 },
   { name: "Web Design", percentage: 50 },
-  { name: "Data Science", percentage: 70 },
+  { name: "Data Science", percentage: 65 },
   { name: "Cybersecurity", percentage: 50 },
-  { name: "Programming", percentage: 50 }
+  { name: "Programming", percentage: 60 }
 ];
 
 
@@ -90,8 +90,8 @@ export const projects = [
     category: "web development",
     filter: "web development",
     description: "A responsive portfolio website showcasing my skills and projects with modern design and smooth animations.",
-    liveDemoLink: "www.google.com", // Add your live demo link
-    sourceCodeLink: "https://github.com/yourusername/portfolio" // Add your GitHub link
+    liveDemoLink: "https://my-portofolio-wine-omega.vercel.app/", 
+    sourceCodeLink: "https://github.com/tresor-01/MY-PORTOFOLIO" 
   },
   
   {
@@ -100,8 +100,8 @@ export const projects = [
     category: "web development",
     filter: "web development",
     description: "A web application that generates strong, secure passwords with customizable options for enhanced online security.",
-    liveDemoLink: "https://your-password-generator.netlify.app",
-    sourceCodeLink: "https://github.com/yourusername/password-generator"
+    liveDemoLink: "https://secure-password-generator-zeta.vercel.app/",
+    sourceCodeLink: "https://github.com/tibyishaka/secure-password-generator"
   },
   {
     image: "./images/Screenshot 2025-04-22 121741.png",
@@ -110,7 +110,7 @@ export const projects = [
     filter: "web design",
     description: "A responsive portfolio website showcasing my skills and projects with modern design and smooth animations.",
     liveDemoLink: "https://your-portfolio-link.netlify.app",
-    sourceCodeLink: "https://github.com/yourusername/portfolio"
+    sourceCodeLink: "https://github.com/tresor-01/MY-PORTOFOLIO"
   },
   {
     image: "./images/Screenshot 2025-07-11 132130.png",
@@ -118,17 +118,17 @@ export const projects = [
     category: "applications",
     filter: "applications",
     description: "An innovative application exploring African culture and heritage through interactive digital experiences.",
-    liveDemoLink: "https://your-afriverse-app.netlify.app",
-    sourceCodeLink: "https://github.com/yourusername/afriverse"
+    liveDemoLink: "https://afriversee.vercel.app/",
+    sourceCodeLink: "https://github.com/DphenomenalALU/afriverse-web"
   },
   {
     image: "./images/Screenshot 2025-07-11 132142.png",
     title: "Momo Data analysis",
-    category: "web design",
+    category: "web development",
     filter: "web design",
     description: "Data analysis platform for mobile money transactions providing insights and visualizations for financial data.",
-    liveDemoLink: "https://your-momo-analysis.netlify.app",
-    sourceCodeLink: "https://github.com/yourusername/momo-analysis"
+    liveDemoLink: "https://momo-analysis.vercel.app/",
+    sourceCodeLink: "hhttps://github.com/DphenomenalALU/MOMO_data_analysis"
   },
   {
     image: "./images/Screenshot 2025-09-12 145531.png",
@@ -136,8 +136,17 @@ export const projects = [
     category: "web development",
     filter: "web development",
     description: "A modern car showcasing platform with advanced filtering, high-quality images, and detailed vehicle information.",
-    liveDemoLink: "https://your-car-showcase.netlify.app",
-    sourceCodeLink: "https://github.com/yourusername/car-showcase"
+    liveDemoLink: "https://car-showcasing-website.vercel.app/",
+    sourceCodeLink: "https://github.com/tresor-01/carShowcasingWebsite"
+  },
+  {
+    image: "./images/image.png",
+    title: "WhatIf Rwanda Website",
+    category: "web development",
+    filter: "web development",
+    description: "A modern webiste showcasing more about WhatIf Rwanda and its works",
+    liveDemoLink: "https:whatif.tally.rw",
+    sourceCodeLink: "https://github.com/tibyishaka/jsksi "
   }
 ];
 
